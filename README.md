@@ -1,5 +1,6 @@
 
-<img width="401" height="203" alt="스크린샷 2025-10-26 오후 11 44 37" src="https://github.com/user-attachments/assets/d5027a75-47ea-43c3-b0d8-8ef915e8f7b7" />
+<img width="372" height="193" alt="스크린샷 2025-10-26 오후 11 45 22" src="https://github.com/user-attachments/assets/b74d03ae-3b57-4ea3-ab82-a74930209f3a" />
+
 
 ## 🧠 실행 코드
 
@@ -170,4 +171,5 @@ def run_game(env, algo_list, episode, shuffle_map, map_num,
          np.round(avg_steps[1], 1) if avg_steps[1] else '-']
     ]
     print(tabulate(data, headers=header, tablefmt='fancy_grid'))
+
 
