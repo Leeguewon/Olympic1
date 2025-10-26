@@ -1,24 +1,5 @@
-# 🏃‍♂️ Olympic1 — 강화학습 기반 러닝 AI 비교 실험
 
-이 프로젝트는 **강화학습(RL)** 에이전트와 **랜덤(random)** 에이전트를
-`Olympics-Running` 환경에서 대결시키는 실험용 평가 스크립트입니다.
-
----
-
-## 📊 결과 예시 (50 Episodes)
-
-![결과 이미지](https://raw.githubusercontent.com/Leeguewon/Olympic1/main/result.png)
-
----
-
-## ⚙️ 주요 기능
-
-- RL vs Random 에이전트 성능 비교  
-- 평균 보상, 승리 횟수, 평균 걸음수 자동 기록  
-- `results.csv`에 결과 자동 저장  
-- Smoothness 보상, 충돌 패널티, 영역 보너스 기능 포함  
-
----
+<img width="401" height="203" alt="스크린샷 2025-10-26 오후 11 44 37" src="https://github.com/user-attachments/assets/d5027a75-47ea-43c3-b0d8-8ef915e8f7b7" />
 
 ## 🧠 실행 코드
 
@@ -189,3 +170,4 @@ def run_game(env, algo_list, episode, shuffle_map, map_num,
          np.round(avg_steps[1], 1) if avg_steps[1] else '-']
     ]
     print(tabulate(data, headers=header, tablefmt='fancy_grid'))
+
